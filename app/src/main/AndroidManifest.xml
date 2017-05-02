@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
-           <intent-filter>
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -22,7 +22,11 @@
         <activity android:name=".showlist" />
         <activity android:name=".payment" />
         <activity android:name=".Dialog_custom" />
-        <activity android:name=".homemenu"></activity>
+        <activity android:name=".homemenu" />
+        <activity android:name=".additional" />
+        <activity android:name=".branch" />
+        <activity android:name=".aboutshop" />
+        <activity android:name=".MySQLiteOpenHelper"></activity>
     </application>
 
 </manifest>

@@ -10,10 +10,10 @@ public class homemenu extends AppCompatActivity {
 
     ListView listView;
     private int[] ints={R.drawable.milk, R.drawable.apple, R.drawable.greentea, R.drawable.kokotea, R.drawable.lemontea,
-                       R.drawable.milktea, R.drawable.orange, R.drawable.strawberry , R.drawable.tea };
+                       R.drawable.milktea, R.drawable.orange, R.drawable.strawberry , R.drawable.tea};
 
     private String[] nameC ={"Milk","Apple Tea","Green Tea","Coco Tea","LemonTea","Milk Tea","Orange","Strawberry Tea","Tea"};
-    private String[] nameP ={"35","40","40","45","35","30","30","35","30"};
+    private String[] nameP ={"35.-","40.-","40.-","45.-","35.-","30.-","30.-","35.-","30.-"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,4 +29,20 @@ public class homemenu extends AppCompatActivity {
         Intent loginintent = new Intent(homemenu.this, homemenu.class);
         startActivity(loginintent);
        }
+
+    public void onClickorder (View view) {
+        Intent loginintent = new Intent(homemenu.this, showlist.class);
+        startActivity(loginintent);
     }
+    public void onClickorderlist (View view) {
+        Intent loginintent = new Intent(homemenu.this, showlist.class);
+        startActivity(loginintent);
+    }
+    public void onClickother (View view) {
+        Intent loginintent = new Intent(homemenu.this, additional.class);
+        startActivity(loginintent);
+    }
+
+
+
+}

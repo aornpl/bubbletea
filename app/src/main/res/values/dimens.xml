@@ -8,5 +8,7 @@
     <dimen name="h6">18sp</dimen>
     <dimen name="h3">20dp</dimen>
     <dimen name="icon">27dp</dimen>
+    <dimen name="pic1">1080dp</dimen>
+    <dimen name="pic2">500dp</dimen>
     <dimen name="pictea">150dp</dimen>
 </resources>
