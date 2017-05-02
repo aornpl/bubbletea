@@ -26,6 +26,4 @@ public class menu extends AppCompatActivity {
 
     }
 
-
-
 }
